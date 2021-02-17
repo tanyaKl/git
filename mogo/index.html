@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style type="text/css">
+		html, body{
+			margin: 0;
+			padding: 0;
+		}
+		div{	box-sizing: border-box;}
+		#start_sheet{
+			width: 100%;
+			height: 100vh;
+			background: url("img/index.png") no-repeat center/ cover;
+		}
+		#header{			
+				margin-top: 27px;		
+			}
+		#wrapper{
+			position: absolute;	
+			width: 1200px;	
+			margin: 0 auto;			
+			height: 50px;
+			z-index: 1000;
+			top: 0;
+			left: 0;
+			right: 0;
+		}
+		#logo{
+			float: left;
+		}
+		#menu{
+			float: right;
+			height: 40px;
+			list-style-type: none;
+		}
+		.menu li{			
+			height: 100%;
+			display: inline-block;
+		}
+		.menu li.menu_item{
+			width: 105px;
+		}
+		.menu li.menu_icon{
+			width: 50px;
+		}
+	</style>
+</head>
+<body>
+
+	<div id="start_sheet">
+	</div>
+
+	<div id="wrapper">
+		<div id="header"> 
+			<div id="logo"><img src="img/logo.png"/> 
+			</div>
+			<div id="menu">
+				<ul class="menu">
+					<li class="menu_item" >AAA</li>
+					<li class="menu_item">BBB</li>
+					<li class="menu_item">CCC</li>
+					<li class="menu_item">DDD</li>
+					<li class="menu_item">EEE</li>
+					<li class="menu_icon"></li>
+					<li class="menu_icon"></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html> 
